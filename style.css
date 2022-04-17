@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.5em;
+}
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://media.gq-magazine.co.uk/photos/5d139a49bc4bf64ef07f0890/master/pass/Aerial-hp--GQ-25aug17_alamy_b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scores {
+  background: black;
+  opacity: 0.6;
+  border-radius: 10px;
+  padding: 10px;
+}
+
